@@ -16,7 +16,6 @@ namespace TestProject.UnitTests.Example
             _newclass = new NewClass();
         }
         
-        // First Test for NewMethod
         [Fact]
         public void NewMethod_ShouldReturnTrue()
         {
@@ -25,7 +24,6 @@ namespace TestProject.UnitTests.Example
             Assert.True(result, "Given true should return true.");
         }
         
-        // Second Test for NewMethod
         [Fact]
         public void NewMethod_ShouldReturnFalse()
         {
